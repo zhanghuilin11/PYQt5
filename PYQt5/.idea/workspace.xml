@@ -12,9 +12,10 @@
       <change afterPath="$PROJECT_DIR$/../GUIlearn/first.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GUIlearn/first.ui" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GUIlearn/main.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designer/py-pyqt5-chutiyan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designer/Qopject.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GII/gigi.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designer/py-pyqt5-chutiyan.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/designer/py-pyqt5-chutiyan.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,28 @@
       <recent name="D:\项目文件\Python\PYQt5\src\designer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.py-pyqt5-chutiyan">
+  <component name="RunManager" selected="Python.Qopject">
+    <configuration name="Qopject" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PYQt5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/designer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/designer/Qopject.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="py-pyqt5-chutiyan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYQt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,6 +148,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Qopject" />
         <item itemvalue="Python.py-pyqt5-chutiyan" />
         <item itemvalue="Python.runsizeHint" />
         <item itemvalue="Python.runtestui" />
@@ -183,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577932515524</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pypyqt5">
+      <created>1578056502473</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578056502473</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,13 +232,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="show test" />
     <MESSAGE value="sizeHint" />
-    <option name="LAST_COMMIT_MESSAGE" value="sizeHint" />
+    <MESSAGE value="pypyqt5" />
+    <option name="LAST_COMMIT_MESSAGE" value="pypyqt5" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1078" y="113" key="CommitChangelistDialog2" timestamp="1577932511759">
+    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578058070477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1078" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577932511759" />
+    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578058070477" />
+    <state x="1078" y="113" key="CommitChangelistDialog2" timestamp="1578056501206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1078" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578056501206" />
     <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1577787756253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -217,22 +252,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1315" y="410" width="273" height="219" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577805254789" />
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1578056330605">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1578059038744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578056330605" />
-    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1578056330604">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578059038744" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1578059038744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578056330604" />
-    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1578056330604">
+    <state width="1899" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578059038744" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1578059038744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578056330604" />
-    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1578056330605">
+    <state width="1899" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578059038744" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1578059038744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578056330605" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578059038744" />
     <state x="641" y="166" key="SettingsEditor" timestamp="1578026104211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -241,5 +276,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577932531613" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578059211340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578059211340" />
   </component>
 </project>
