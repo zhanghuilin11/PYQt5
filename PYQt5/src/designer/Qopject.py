@@ -37,3 +37,74 @@ print(object0.findChild(object,'n'))
 print(object0.findChild(object,'n', Qt.FindDirectChildrenOnly)) #只查找直接继承的子类
 
 print(object0.findChildren(object))#返回所有子类
+
+#当父类删除时，其子类也被删除，释放内存
+
+if __name__ == '__main__':
+    import sys
+    app = QApplication(sys.argv)
+    win1 = QWidget()
+    win1.resize(500,500)
+    win1.show()
+
+    win2 = QWidget()
+    win2.resize(200,200)
+    win2.setStyleSheet("background-color : cyan;")
+    win2.setParent(win1)
+    win2.move(100,100)
+    win2.show()
+
+    but1 = QPushButton()
+    but1.setParent(win1)
+    but1.setText('sdsadsdasdsaasddas')
+    but1.move(150,150)
+    but1.show()
+
+    #信号与槽
+    def cao():
+        print('xxxxxxxxxxxx')
+    but1.clicked.connect(cao)
+
+    def color():
+
+        win2.setStyleSheet("background-color : red;")
+
+    but1.clicked.connect(color)
+
+def odj():
+    obj1 = QObject
+    obj2 = QObject
+    obj3 = QObject
+    obj4 = QObject
+    obj2.setParent(obj1)
+    obj3.setParent(obj2)
+    obj4.setParent(obj3)
+
+    def destory(name):
+        print(name,' was destiryed!')
+    obj1.destroyed.connect(destory)
+    obj2.destroyed.connect(destory)
+    obj3.destroyed.connect(destory)
+    obj4.destroyed.connect(destory)
+    
+
+
+
+    # def but1_cl(name):
+    #     print('qqqqqqqqqqqqqqqqqqqqqqqqqqqqq',name)
+    # # object信号的操作
+    #
+    # obj = QObject()
+    #
+    # def destory_obj(obj):
+    #     print('bei shi fang ')
+    #
+    # # obj.destroyed.connect(destory_obj())
+    # obj.objectNameChanged.connect(but1_cl())
+    # obj.setObjectName('sdf')
+    # del obj
+    # but1.clicked().connect(but1_cl())
+    sys.exit(app.exec_())
+
+
+
